@@ -1,6 +1,8 @@
 import React, { Component } from "react"
 import { Navbar, Nav, NavDropdown } from "react-bootstrap"
 import Logo from '../Asset/images/gojek-logo_normal.svg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 
 import Services from './Services'
 import Join from './Join'
@@ -28,8 +30,11 @@ class NavBar extends Component {
           <Nav.Link>Cerdikiawan</Nav.Link>
         </Nav>
 
-        <NavDropdown title="English">
-          <NavDropdown.Item>Indonesian</NavDropdown.Item>
+        <NavDropdown title={
+            <FontAwesomeIcon icon={faGlobe} />}>
+          <NavDropdown.Item>
+            Indonesian
+          </NavDropdown.Item>
         </NavDropdown>
       </Navbar>
     )
