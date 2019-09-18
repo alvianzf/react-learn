@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import { Container, Row, Col } from "react-bootstrap"
 import NavBar from "./Component/Navbar"
 import Solv from "./Component/Solve"
-// import Carousels from './Component/Carousels'
+import Carousels from './Component/Carousels'
 
 import Hero from './Asset/images/slider.png'
 
@@ -25,9 +25,9 @@ class App extends Component {
           <Row className="cards">
             <Solv />
           </Row>
-          <Row>
-            {/* <Carousels /> */}
-          </Row>
+        </Container>
+        <Container>
+          <Carousels />
         </Container>
       </>
     )

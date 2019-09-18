@@ -8,7 +8,7 @@ class Solv extends Component {
         return (
             <Row className="cards">
                 <Col className="cards">
-                    <img width="90%" alt="isi1" src={ImageOne} className="card-image"/>
+                    <img alt="isi1" src={ImageOne} className="card-image"/>
                 </Col>
                 <Col className="cards">
                     <h3>Meet Solv, Gojek's new logo</h3>
