@@ -31,7 +31,7 @@ class NavBar extends Component {
         </Nav>
 
         <NavDropdown title={
-            <FontAwesomeIcon icon={faGlobe} />}>
+            <FontAwesomeIcon icon={faGlobe} > English </FontAwesomeIcon>}>
           <NavDropdown.Item>
             Indonesian
           </NavDropdown.Item>
