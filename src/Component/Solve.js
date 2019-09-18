@@ -6,11 +6,11 @@ import ImageOne from '../Asset/images/isi1.jpg'
 class Solv extends Component {
     render() {
         return (
-            <Row classname="cards">
-                <Col classname="cards">
-                    <img alt="isi1" src={ImageOne} className="card-image"/>
+            <Row className="cards">
+                <Col className="cards">
+                    <img width="90%" alt="isi1" src={ImageOne} className="card-image"/>
                 </Col>
-                <Col classname="cards">
+                <Col className="cards">
                     <h3>Meet Solv, Gojek's new logo</h3>
                     <p>
                     Our new logo symbolizes Gojek’s transformation from being a ride-hailing service to becoming the largest Super App, with a variety of smart ways to eliminate hassles.
