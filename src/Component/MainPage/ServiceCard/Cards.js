@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Row, Col, Card } from 'react-bootstrap'
-import icon1 from "./../../../Asset/images/icon1.png"
+import { Card, Button } from 'react-bootstrap'
 
 class Cards extends Component {
     
@@ -8,15 +7,17 @@ class Cards extends Component {
     render() {
 
         return (
-            <Card className="box" bg="white" style={{ width: '18rem' }}>
-                <Card.Body className="image-center">
-                    <img src={this.props.image} alt="logo"/>
-                <Card.Title className="goride-title"><h3>{ this.props.title }</h3></Card.Title>
-                <Card.Text className="article">
-                    { this.props.description }
-                </Card.Text>
-                </Card.Body>
-            </Card>
+            <Button variant="white">
+                <Card className="box" bg="white" style={{ width: '18rem' }}>
+                    <Card.Body className="image-center">
+                        <img src={this.props.image} alt="logo"/>
+                    <Card.Title className="goride-title"><h3><b>{ this.props.title }</b></h3></Card.Title>
+                    <Card.Text className="article">
+                        { this.props.description }
+                    </Card.Text>
+                    </Card.Body>
+                </Card>
+            </Button>
         )
     }
 }
