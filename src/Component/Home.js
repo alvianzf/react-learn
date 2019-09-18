@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 import Hero from '../Asset/images/slider.png'
 import Carousels from './MainPage/Carousels'
+
 import Solv from './MainPage/Solve'
 import GojekServices from './MainPage/GojekServices'
 
@@ -18,6 +19,9 @@ class Home extends Component {
                 </Row>
                 <Row>
                     <Carousels />
+                </Row>
+                <Row>
+                    <GojekServices />
                 </Row>
             </Container>
         )
