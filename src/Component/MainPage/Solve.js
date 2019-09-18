@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Container, Col, Row } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
-import ImageOne from '../Asset/images/isi1.jpg'
+import ImageOne from '../../Asset/images/isi1.jpg'
 class Solv extends Component {
     render() {
         return (
