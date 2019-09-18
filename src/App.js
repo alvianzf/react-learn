@@ -1,7 +1,10 @@
 import React, { Component } from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
-import { Container } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap"
 import NavBar from "./Component/Navbar"
+
+
+import Hero from './Asset/images/slider.png'
 
 import "./App.css"
 
@@ -9,8 +12,16 @@ class App extends Component {
   render() {
     return (
       <>
-        <NavBar />
-        <Container fluid></Container>
+      <Container fluid>
+        <Row>
+          <NavBar />
+        </Row>
+      </Container>
+        <Container fluid>
+          <Row>
+            <img alt="herojumbotron" src={Hero} />
+          </Row>
+        </Container>
       </>
     )
   }

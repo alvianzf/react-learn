@@ -15,7 +15,7 @@ class NavBar extends Component {
   render() {
 
     return (
-      <Navbar bg="white" fixed="top">
+      <Navbar bg="white" static="top">
         <Navbar.Brand href="#home"><img alt="gojek-logo" src={ Logo } /></Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link href="#home">About Us</Nav.Link>
@@ -31,7 +31,7 @@ class NavBar extends Component {
         </Nav>
 
         <NavDropdown title={
-            <FontAwesomeIcon icon={faGlobe} > English </FontAwesomeIcon>}>
+            (<FontAwesomeIcon icon={faGlobe} > English </FontAwesomeIcon>)}>
           <NavDropdown.Item>
             Indonesian
           </NavDropdown.Item>
