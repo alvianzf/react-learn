@@ -15,9 +15,9 @@ class History extends Component {
                         <h3>History</h3>
                         <p className="article">
                             Gojek’s journey began in 2010 as a motorcycle ride-hailing call center in Indonesia. The homegrown app was then launched in 2015 with only three services: GoRide, GoSend, and GoMart.
-                            <br />
+                            <br /><br />
                             Since then, the app has evolved into a Super App, a multi-services platform with more than 20 services today.
-                            <br />
+                            <br /><br />
                             Gojek is now a leading technology group of platform serving millions of users in Southeast Asia.
                         </p>
                     </Col>
