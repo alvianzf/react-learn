@@ -5,9 +5,18 @@
   height: 100px;
   margin: 0;
   background-color: white;
+  padding: 0 50px;
 }
 
 .nav-item {
-  color: black;
   padding: 0 10px;
 }
+
+.nav-link {
+  color: black;
+}
+
+// .dropdown-menu {
+//   // position: relative;
+//   // width: 100%;
+// }
