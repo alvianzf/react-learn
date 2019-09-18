@@ -18,7 +18,7 @@ class App extends Component {
         <Container fluid className="page">
           <Router>
             <Route exact path="/" component={ Home } />
-            <Route exact path="/about" component={ About } />
+            <Route path="/about" component={ About } />
           </Router>
         </Container>
         <Footer />
