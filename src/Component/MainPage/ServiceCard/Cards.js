@@ -8,11 +8,11 @@ class Cards extends Component {
     render() {
 
         return (
-            <Card className="goride" bg="white" style={{ width: '18rem' }}>
-                <Card.Body>
+            <Card className="box" bg="white" style={{ width: '18rem' }}>
+                <Card.Body className="image-center">
                     <img src={this.props.image} alt="logo"/>
-                <Card.Title className="goride-title">{ this.props.title }</Card.Title>
-                <Card.Text >
+                <Card.Title className="goride-title"><h3>{ this.props.title }</h3></Card.Title>
+                <Card.Text className="article">
                     { this.props.description }
                 </Card.Text>
                 </Card.Body>
