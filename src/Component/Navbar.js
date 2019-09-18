@@ -15,7 +15,7 @@ class NavBar extends Component {
   render() {
 
     return (
-      <Navbar bg="white" static="top">
+      <Navbar bg="white" fixed="top">
         <Navbar.Brand href="#home"><img alt="gojek-logo" src={ Logo } /></Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link href="#home">About Us</Nav.Link>

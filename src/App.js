@@ -13,12 +13,8 @@ class App extends Component {
   render() {
     return (
       <>
-      <Container fluid>
-        <Row>
           <NavBar />
-        </Row>
-      </Container>
-        <Container fluid>
+        <Container fluid className="page">
           <Row>
             <img alt="herojumbotron" src={Hero} />
           </Row>
