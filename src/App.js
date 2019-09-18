@@ -5,6 +5,7 @@ import NavBar from "./Component/Navbar"
 
 import Home from './Component/Home'
 import About from './Component/About'
+import Footer from './Component/Footer'
 
 import { Link, Route, BrowserRouter as Router } from 'react-router-dom'
 import "./App.css"
@@ -16,11 +17,11 @@ class App extends Component {
         <NavBar />
         <Container fluid className="page">
           <Router>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
+            <Route exact path="/" component={ Home } />
+            <Route exact path="/about" component={ About } />
           </Router>
-
         </Container>
+        <Footer />
       </>
     )
   }
