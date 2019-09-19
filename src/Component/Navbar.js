@@ -4,11 +4,10 @@ import Logo from '../Asset/images/gojek-logo_normal.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 
-import Home from './Home'
 import Services from './Services'
 import Join from './Join'
 
-import { Route, Link, BrowserRouter as Router } from "react-router-dom"
+import {Link, Route, BrowserRouter as Router } from "react-router-dom"
 
 import "./App.scss"
 
@@ -18,7 +17,7 @@ class NavBar extends Component {
 
     return (
       <Navbar bg="white" fixed="top">
-        <Navbar.Brand href="#home"><img alt="gojek-logo" src={ Logo } /></Navbar.Brand>
+        <Navbar.Brand href="/"><img alt="gojek-logo" src={ Logo } /></Navbar.Brand>
         <Nav className="mr-auto">
           <Router>
             <Nav.Link href="/about">About Us</Nav.Link>
