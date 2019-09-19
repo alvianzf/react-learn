@@ -33,12 +33,13 @@ class GojekServices extends Component {
               image={logo1}
               title="GoRide"
               description="Over 2 million drivers nationwide are ready to drive you safely through the traffic."
-              />
+            />
+
             <Cards
               image={logo2}
               title="gocar"
               description="Hundreds of thousands of drivers to drive you safely with comfort and convenience."
-              />
+            />
             <Cards
               image={logo3}
               title="gosend"
@@ -73,8 +74,27 @@ class GojekServices extends Component {
               image={logo6}
               description="Enjoy a variety of favorite cuisine consisting foods, beverage. traditional snacks, trending snacks & exciting events at the GoFood Culinary Festival."
             />
-            <Cards image={logo7} title="gomed" description="Use GoMed all your medical needs. Buy medicines, vitamins, ect. from licensed pharmacies" />
-            <Cards image={logo8} description="we are here to give you the easiest online shopping experience." />
+            <Cards
+              image={logo7}
+              title="gomed"
+              description="Use GoMed all your medical needs. Buy medicines, vitamins, ect. from licensed pharmacies"
+            />
+            <Cards
+              image={logo8}
+              description="we are here to give you the easiest online shopping experience."
+            />
+            <Row>
+              <h2>Payments</h2>
+            </Row>
+            <Row>
+              <p>
+                From split the bills to donations, we make payments reliable,
+                easy and delightful for our customers and merchants alike
+              </p>
+            </Row>
+            <Row>
+              <Cards />
+            </Row>
           </CardDeck>
         </Row>
       </Container>
